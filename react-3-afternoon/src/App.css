@@ -104,7 +104,7 @@ body {
 }
 
 .utilityButtons {
-  width: 30vw;
+  width: 13em;
   justify-content: space-between;
 }
 
@@ -121,6 +121,6 @@ body {
   border:none;
   border-radius: 10px;
   height: 90%;
-  width: 56px;
+  width: 60px;
   font-weight: bold;
 }
