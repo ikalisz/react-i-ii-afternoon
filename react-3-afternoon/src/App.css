@@ -31,4 +31,96 @@ body {
   min-height: 300px;
   width: 90vw;
   margin-top: 90px;
+  padding-bottom: 46px;
+}
+
+.dataNumText {
+  margin: 0;
+  position: absolute;
+  right: 6vw;
+}
+
+.dataDisplayText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.nameHolder {
+  display: flex;
+}
+
+.dataName {
+  margin: 0;
+  margin-top: 20px;
+  border-bottom: 2px solid #34A5DA;
+  border-bottom-width: 100%
+}
+
+.dataCountry {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 30px;
+}
+
+.One {
+  margin-top: 20px;
+}
+
+.startSmallText {
+  margin-left: 5px;
+}
+
+
+
+.favMovies h3{
+  margin-top: 23px;
+  margin-bottom: 0;
+}
+
+.movieList {
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  margin: 0;
+}
+
+.movieList li {
+  margin-bottom: 2px;
+  margin-left: 20px;
+}
+
+.navBar {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.parentNav {
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.utilityButtons {
+  width: 30vw;
+  justify-content: space-between;
+}
+
+.navButton {
+  border: none;
+  color: #fff;
+  background: none;
+  font-weight: bold;
+}
+
+.fnButtons {
+  background: #34A5DA;
+  color: #fff;
+  border:none;
+  border-radius: 10px;
+  height: 90%;
+  width: 56px;
+  font-weight: bold;
 }
